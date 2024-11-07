@@ -1,0 +1,75 @@
+h1 {
+    color: blue;
+    font: Verdana;
+    background-color: aqua;
+}
+nav {
+    display: flex;
+    padding: 2.5% 5%;
+}
+
+nav ul {
+    text-align: right;
+    flex: 1
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 5px 10px;
+}
+
+nav ul li a {
+    color: whitesmoke;
+    font-size: 16px;
+}
+nav img {
+    width: 76px;
+    height: 76px;
+    cursor: pointer;
+}
+
+p {
+   background-color: beige;
+   color: green;
+}
+
+header {
+    width: 100%;
+    min-height: 8vh;
+    border: none;
+    background-image: url(img/back.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.bond {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.Abt {
+    display: grid;
+    color: rgb(165, 21, 21);
+}
+
+.Fash {
+    text-align: justify;
+    color: rgb(165, 21, 21);
+    margin: 4%;
+}
+
+.Fash h1 {
+    font-size: 86px;
+    padding-bottom: 25px;
+    line-height: 1.2em;
+}
+
+.Fash p {
+    line-height: 1.4;
+    font-family: "Libre Franklin", sans-serif;
+    font-weight: 300 !important;
+    font-size: 23px;
+    letter-spacing: 1px;
+    margin-bottom: 3%;
+}
